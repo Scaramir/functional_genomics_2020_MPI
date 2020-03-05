@@ -15,6 +15,21 @@ Summary:
     expressed?
     
 3.) Histone marks:
+    
+        Active: 
+            promotors: 
+            enhancers:
+            gene body:
+            repressed regions:
+        
+        Inactive:
+            promotors:
+            enhancers:
+            gene body:
+            repressed regions:
+
+
+
 
 4.) ChromHmm
 
