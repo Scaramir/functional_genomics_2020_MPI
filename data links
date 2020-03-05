@@ -1,0 +1,16 @@
+ histone chip-seq of lung - 14,5 Days
+ Lung:
+   - H3K27me3 
+https://www.encodeproject.org/files/ENCFF002AGQ/@@download/ENCFF002AGQ.fastq.gz  --1
+https://www.encodeproject.org/files/ENCFF002AGO/@@download/ENCFF002AGO.fastq.gz  --2
+    
+    H3K9me3
+https://www.encodeproject.org/files/ENCFF002DQV/@@download/ENCFF002DQV.fastq.gz  --1
+https://www.encodeproject.org/files/ENCFF002DRB/@@download/ENCFF002DRB.fastq.gz  --2
+
+    H3K36me3
+https://www.encodeproject.org/files/ENCFF002AHY/@@download/ENCFF002AHY.fastq.gz  --1 Big Ren
+https://www.encodeproject.org/files/ENCFF002AIE/@@download/ENCFF002AIE.fastq.gz  --2
+
+
+
