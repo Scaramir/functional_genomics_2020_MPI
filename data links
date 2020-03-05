@@ -1,3 +1,77 @@
+\\ATAC
+https://www.encodeproject.org/files/ENCFF979DGG/@@download/ENCFF979DGG.fastq.gz    atac1 e14 lunge
+https://www.encodeproject.org/files/ENCFF204EVA/@@download/ENCFF204EVA.fastq.gz      atac2 e14 lunge 
+
+https://www.encodeproject.org/files/ENCFF705BQG/@@download/ENCFF705BQG.fastq.gz		atac1 p0 lunge
+https://www.encodeproject.org/files/ENCFF370OFA/@@download/ENCFF370OFA.fastq.gz           atac2 p0 lunge
+
+https://www.encodeproject.org/files/ENCFF672EYN/@@download/ENCFF672EYN.fastq.gz           atac1 e14 limb
+https://www.encodeproject.org/files/ENCFF948NPO/@@download/ENCFF948NPO.fastq.gz           atac2 e14 limb
+
+
+\\RNA SEQ
+https://www.encodeproject.org/files/ENCFF637AVG/@@download/ENCFF637AVG.fastq.gz         rna-seq1 lunge p0
+https://www.encodeproject.org/files/ENCFF505QCL/@@download/ENCFF505QCL.fastq.gz         rna-seq2 lunge p0
+
+https://www.encodeproject.org/files/ENCFF800SJE/@@download/ENCFF800SJE.fastq.gz          rna-seq 1 lunge e14
+https://www.encodeproject.org/files/ENCFF728LAM/@@download/ENCFF728LAM.fastq.gz        rna-seq 2 lunge e14
+
+https://www.encodeproject.org/files/ENCFF780HRS/@@download/ENCFF780HRS.fastq.gz        rna-seq1 limp e14
+https://www.encodeproject.org/files/ENCFF184ELK/@@download/ENCFF184ELK.fastq.gz          rna-seq2 limb e14
+
+
+\\Histon Chip
+https://www.encodeproject.org/files/ENCFF002AMM/@@download/ENCFF002AMM.fastq.gz      Histon chip1 limp e14 H3K4me3
+https://www.encodeproject.org/files/ENCFF002AMN/@@download/ENCFF002AMN.fastq.gz       Histon chip2 limp e14 H3K4me3
+\
+https://www.encodeproject.org/files/ENCFF002AMX/@@download/ENCFF002AMX.fastq.gz  	Histon chip1 lung e14 H3K4me3
+https://www.encodeproject.org/files/ENCFF002AMW/@@download/ENCFF002AMW.fastq.gz	Histon chip2 lung e14 H3K4me3
+
+https://www.encodeproject.org/files/ENCFF002ANG/@@download/ENCFF002ANG.fastq.gz		Histon chip1 lung p0 H3K4me3
+https://www.encodeproject.org/files/ENCFF002ANM/@@download/ENCFF002ANM.fastq.gz		Histon chip2 lung p0 H3K4me3
+
+
+
+https://www.encodeproject.org/files/ENCFF002AKJ/@@download/ENCFF002AKJ.fastq.gz		Histon chip1 lung p0 H3K4me1
+https://www.encodeproject.org/files/ENCFF002AKG/@@download/ENCFF002AKG.fastq.gz		Histon chip2 lung p0 H3K4me1
+
+https://www.encodeproject.org/files/ENCFF002AJT/@@download/ENCFF002AJT.fastq.gz		Histon chip1 lung e14 H3K4me1
+https://www.encodeproject.org/files/ENCFF002AJS/@@download/ENCFF002AJS.fastq.gz		Histon chip2 lung e14 H3K4me1
+
+https://www.encodeproject.org/files/ENCFF002AJR/@@download/ENCFF002AJR.fastq.gz 		Histon chip1 limp e14 H3K4me1
+https://www.encodeproject.org/files/ENCFF897XJF/@@download/ENCFF897XJF.fastq.gz		Histon chip2 limp e14 H3K4me1
+
+
+
+https://www.encodeproject.org/files/ENCFF002AFN/@@download/ENCFF002AFN.fastq.gz		Histon chip1 lung p0 H3K27ac
+https://www.encodeproject.org/files/ENCFF002AFT/@@download/ENCFF002AFT.fastq.gz		Histon chip2 lung p0 H3K27ac
+
+https://www.encodeproject.org/files/ENCFF002AFI/@@download/ENCFF002AFI.fastq.gz		Histon chip1 lung e14 H3K27ac
+https://www.encodeproject.org/files/ENCFF002AFF/@@download/ENCFF002AFF.fastq.gz		Histon chip2 lung e14 H3K27ac
+
+https://www.encodeproject.org/files/ENCFF002AEY/@@download/ENCFF002AEY.fastq.gz		Histon chip1 limp e14 H3K27ac
+https://www.encodeproject.org/files/ENCFF002AEX/@@download/ENCFF002AEX.fastq.gz		Histon chip2 limp e14 H3K27ac
+
+
+\\Controll Chip
+https://www.encodeproject.org/files/ENCFF002ARC/@@download/ENCFF002ARC.fastq.gz		Controll Chip 1 lunge p0  
+https://www.encodeproject.org/files/ENCFF002ARH/@@download/ENCFF002ARH.fastq.gz		Controll Chip 2 lunge p0
+
+https://www.encodeproject.org/files/ENCFF002AQJ/@@download/ENCFF002AQJ.fastq.gz		Controll Chip 1 lunge e14 Big ren
+https://www.encodeproject.org/files/ENCFF002AQI/@@download/ENCFF002AQI.fastq.gz		Controll Chip 2 lunge e14 big ren
+
+https://www.encodeproject.org/files/ENCFF002AQG/@@download/ENCFF002AQG.fastq.gz		Controll Chip 1 limp e14 Big ren
+https://www.encodeproject.org/files/ENCFF002AQF/@@download/ENCFF002AQF.fastq.gz		Controll Chip 2 limp e14 Big ren
+
+
+
+
+
+
+
+
+
+
  histone chip-seq of lung - 14,5 Days
  Lung:
    - H3K27me3 
