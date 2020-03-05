@@ -68,6 +68,19 @@ https://www.encodeproject.org/files/ENCFF002DRB/@@download/ENCFF002DRB.fastq.gz 
 https://www.encodeproject.org/files/ENCFF002AHY/@@download/ENCFF002AHY.fastq.gz  --1 Big Ren
 https://www.encodeproject.org/files/ENCFF002AIE/@@download/ENCFF002AIE.fastq.gz  --2
 
+limb:
+    H3K27me3
+https://www.encodeproject.org/files/ENCFF002AGK/@@download/ENCFF002AGK.fastq.gz  --1
+https://www.encodeproject.org/files/ENCFF002AGJ/@@download/ENCFF002AGJ.fastq.gz  --2
+
+    H3K9me3
+https://www.encodeproject.org/files/ENCFF002DRL/@@download/ENCFF002DRL.fastq.gz  --1
+https://www.encodeproject.org/files/ENCFF002DRO/@@download/ENCFF002DRO.fastq.gz  --2
+
+    H3K36me3
+https://www.encodeproject.org/files/ENCFF002AIA/@@download/ENCFF002AIA.fastq.gz  --1  (the smaller one of (--1), in this case)
+https://www.encodeproject.org/files/ENCFF002AHZ/@@download/ENCFF002AHZ.fastq.gz  --2
+
 
 
 \\Controll Chip
