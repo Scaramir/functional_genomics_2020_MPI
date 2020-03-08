@@ -1,0 +1,104 @@
+1)  Zusammenfassung der Studie (Gorkin et al. 2017), Systematic mapping of chromatin state landscapes during mouse development
+
+
+Ziel der Studie:
+
+Systematisches Erstellen von Profilen der Histonmodifikationen über 8 Entwicklungszustände (Zeit) in jewals 12 verschiedene Gewebearten (Ort).
+(72 Gewebe/Entwicklung-samples)
+Insgesamt 1 128 ChiP-Seq Verfahren auf die Gewebearten und Zeitpunkte verteilt.
+Durch integrative Analysen sollen die wichtigsten Transkriptionfaktoren (TF), die eine wesentliche Rolle für die Zelldifferenzierung spielen, identifiziert werden. 
+Darüberhinaus sollen die TF's mit deren Zielgenen verknüpft werden, um über die Kenntnis von kodierende und nicht kodierende Gene Rückschlüsse über Ursachen von 
+	Krankheiten zu ziehen.
+
+Versuchsaufbau:
+
+C57BL/6N embryos
+Zeitfenster von E10,5 bis P0(= Geburt) (insgesamt 8 Zeitpunkte mit Intervall von 10,5 Tage)
+12 Gewebearten
+Jewals 2 Replikate der ChiP-Seq für jede Gewebeart spezialisiert auf 8 Histonmodifikationen (H3K4me1, H3K4me2, H3Kme3, H3K27ac, H3K27me3, H3K9ac, H3K9me3, H3K36me3
+genügen dem Referenzepigenom)
+66*10^12 Reads von 564 ChiP-Seq aus 2 Replikate (N = 1 128)
+
+A) Histonsmodifikationsprofile, statistische Analysen und erste Beobachtungen:
+
+A.1) Peak-Calling-Vergleiche zeigen große Unterschiede zwischen Histonmodifikationsprofile (HMP) zwischen verschiedene Gewebetypen im gleichen Entwicklungsstadium.
+A.2) k-means Clustering und PCA zeigen Ähnlichkeiten der HMP zwischen verwandte Gewebetypen wie z.B im Nervensystem.
+A.3) Korrelation nach Pearson zeigt wesentliche und graduierte Änderung des HMP innerhalb eines selben Gewebetyps in Abhängigkeit der Entwicklungsstufen.
+
+
+B) ChromHMM
+
+-15 hidden states bilden 4 Klassen: promoter states, enhancer states, transcriptional states, and heterochromatic states
+-ca ein Drittel des Genoms ist durch ein bestimmten Chromatin-Zustand charakterisiert
+-Identifikation aktiver und unterdrückter Gene in bestimmten Geweben -> "chromatin state landscape"
+-z.B aktive Gene die spezifisch für ein Gewebe sind, sind in anderen Geweben oft durch Polycomb-assoziiertes Heterochromatin unterdrückt 
+-Ungefähr 1,2% des Genoms unterscheidet sich bezüglich der Chromatinzustände zwischen verschiedene Gewebe im gleichen Entwicklungsstadium. Enhancer-Regionen sind am 
+ meisten von der Variabilität betroffen.
+-Clustering bezüglich "strong enhancer" allein zeigt wieder Ähnlichkeiten im Chromatinzustand verwandter Gewebetypen z.B Gliedmaßen und 
+ Gesicht (Hypothese: gemeinsamer Entwicklungsursprung). Diese Ähnlichkeit wurde schon beim Clustering der HMP gezeigt und validiert somit das HMM-Modell.
+-Identifizierung dynamischer Enhancer durch Activity-Score bezüglich H3K27ac-Anreicherung. Clustering der dyn. Enhancer im Vorderhirn (forebrain) ergibt 4 Cluster, die
+ für temporelle Entwicklungsaktivität stehen, die mittels GO terms annotiert werden können (A=CNS development, B und C=neuro_gliogenesis, D=synaptic function).
+ Vergleich der TF-Bindemotive mit Expressionslevel der TF's mit dem Ziel-Motiv. Übereinstimmung der GO terms für diese TF's. Ergebnisse konsistent mit anderen Studien.
+
+C) Verknüpfung von Enhancer mit Zielgenen
+
+Methode: Korrelation zwischen H3K27ac-Anreicherung der TSS-distal enhancers im selben Topologically-Associating Domain (TAD) und der Gen-Expression (RNA-Seq)
+
+Beobachtung: Gene mit 5 oder mehr enhancer -> Entwicklung und Differenzierung
+	     Gene mit 1 enhancer -> metabolische "houskeeping" Funktion
+Signifikante Übereinstimmung mit GTEx project, dass enhancer mit Zielgenen beim Menschen verknüpft
+Mutationen in regulatorischen Bereichen führen zu einer Teilmenge von Symptomen von Mendelian-Krankheiten (Mutation in codierenden Genen)
+
+D) Zusammenhang zwischen H3K27ac-Anreicherung und aktiven Enhancer
+
+Die Verknüpfung von Enhancer und Zielgene beruht auf das Dogma, dass die H3K27ac-Anreicherung der TSS-distal enhancers mit der Genexpression korrelieren.
+Doch diese Anreicherung variiert auch innerhalb des gleichen Gewebetyps. Man sollte die Ergebnisse also auch kritisch betrachten.
+
+
+2)
+Nkx2-1 -> Lunge (siehe Figure 3b, active promotor)
+Wt1 -> Niere (from paper)
+Neurod -> Gehirn (vor allem Cerebellum und Cerebellar Hemisphere) (siehe GTEX)
+Myh7 -> Skelettmuskel und Herz (linker Ventrikel) (siehe GTEX)
+Myh6 -> Herz (Atrial Appendage/ linker Ventrikel) und Skelettmuskel (siehe GTEX)
+
+3)
+Active Promoter: H3K27ac H3K9ac H3K4me3 H3K4me2
+Inactive Promotor: H3K4me3 H3K4me2
+Enhancer: H3K27ac H3K9ac H3K4me3 H3K4me2 H3K4me1
+Gene body: H3K36me3
+Repressed regions: H3K27me3
+
+H3K27ac (am Enhancer) korreliert mit Euchromatin
+
+siehe Paper
+
+4) Was ist ChromHMM?
+
+ChromHMM ist eine Software, die Histonmodifikationsprofile über ein Genom funktional klassifizieren kann. Das Prinzip beruht auf ein Hidden Markov Modell.
+Das Modell lernt direkt aus den Input Daten (de Novo) durch unüberwachtes Lernen und passt die Parameter iterativ an das Modell an.
+Als erstes wird erstmal Peak-Calling über die ChiP-Seq Daten durchgeführt. Chromatin Zustand und GC-Gehalt können zu einem Hintergrund-Bias oder Rauschen beim Mapping
+führen. Dieses wird durch eine Poisson-Verteilung modelliert und die Anreichung in der Peak-Region wird relativ zum Hintergrund ausgerechnet. Somit erhält jedes Peak 
+einen p-Wert. Alle signifikante Peaks werden beibehalten. Nun macht man eine Superposition der ChiP-Seq Daten für alle Marker des gleichen Gewebes am gleichen 
+Zeitpunkt, um das gesamte Profil zu erhalten. Man lässt nun ein Fenster in der Regel mit der Größe von 200 bp (grobe Länge eines Nukleosoms) durch das Genom 
+laufen. An jeder Position des Genoms werden die Häufigkeiten der jeweiligen Marker (present or absent calls) innerhalb des Fensters berechnet. Somit werden 
+die Emissionswahrscheinlichkeiten errechnet. Diese tragen die Information mit welcher Wahrscheinlichkeit ein bestimmter Marker in einem bestimmten 
+versteckten Zustand (z.B Promotor oder Enhancer) emittiert wird. Das Vorkommen eines Markers wird als unabhängig betrachtet (Vorraussetzung für HMM). Zusätzlich
+wird das Produkt dieser unabhängigen Wahrscheinlichkeiten (Bernoulli random variable) ausgerechnet, um dem Fenster eine Wahrscheinlichkeit für die Kombination 
+der Marker zu geben. Ferner werden die Transitionswahrscheinlichkeiten ausgerechnet, indem berücksichtigt wird mit welcher Häufigkeit konsekutive Zustände vorkommen.
+Schließlich gibt die Software eine Kartierung des Genoms mit den Chromatin-Zuständen aus.
+
+Fragen:
+-Wird das Fenster auf jede Position oder mit einem Sprung von 200bp geführt? Wenn 1. erhält man nicht wirre Mischungen von Nukleosomfenstern? Wenn 2. woher soll
+man wissen wo man das erste Fenster ansetzen soll, dass den Beginn eines Nukleosoms darstellt?
+-Wenn das Modell verschiedene Zustände generiert, wie wird es funktionnel assoziiert? Braucht man nicht verlässliche Trainingsdaten?
+-Wenn man das Produkt der Emissionswahrscheinlichkeiten nimmt um die Kombination der Marker zu evaluieren, geht da nicht die Information der spezifischen Permutation
+(Muster) verloren? 
+
+
+Quellen:
+Ernst, J., Kellis, M. ChromHMM: automating chromatin-state discovery and characterization. Nat Methods 9, 215–216 (2012). https://doi.org/10.1038/nmeth.1906
+Ernst, J., Kellis, M. Discovery and characterization of chromatin states for systematic annotation of the human genome. Nat Biotechnol 28, 817–825 (2010). https://doi.org/10.1038/nbt.1662
+Ernst, J., Kellis, M. Chromatin-state discovery and genome annotation with ChromHMM. Nat Protoc 12, 2478–2492 (2017). https://doi.org/10.1038/nprot.2017.124
+
+
