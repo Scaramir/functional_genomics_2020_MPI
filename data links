@@ -60,15 +60,28 @@ https://www.encodeproject.org/files/ENCFF002AEX/@@download/ENCFF002AEX.fastq.gz	
 https://www.encodeproject.org/files/ENCFF002AGQ/@@download/ENCFF002AGQ.fastq.gz  --1
 https://www.encodeproject.org/files/ENCFF002AGO/@@download/ENCFF002AGO.fastq.gz  --2
     
+double-checked:
     H3K9me3
+    e14,5d
 https://www.encodeproject.org/files/ENCFF002DQV/@@download/ENCFF002DQV.fastq.gz  --1
 https://www.encodeproject.org/files/ENCFF002DRB/@@download/ENCFF002DRB.fastq.gz  --2
+
+double-checked:
+    H3K9me3
+    p0
+https://www.encodeproject.org/files/ENCFF002DTK/@@download/ENCFF002DTK.fastq.gz  --1
+https://www.encodeproject.org/files/ENCFF002DTL/@@download/ENCFF002DTL.fastq.gz  --2
+
+
+
 
     H3K36me3
 https://www.encodeproject.org/files/ENCFF002AHY/@@download/ENCFF002AHY.fastq.gz  --1 Big Ren
 https://www.encodeproject.org/files/ENCFF002AIE/@@download/ENCFF002AIE.fastq.gz  --2
 
-limb:
+
+
+limb:  --> es gibt hierzu keine p0-Daten 
     H3K27me3
 https://www.encodeproject.org/files/ENCFF002AGK/@@download/ENCFF002AGK.fastq.gz  --1
 https://www.encodeproject.org/files/ENCFF002AGJ/@@download/ENCFF002AGJ.fastq.gz  --2
@@ -83,7 +96,9 @@ https://www.encodeproject.org/files/ENCFF002AHZ/@@download/ENCFF002AHZ.fastq.gz 
 
 
 
-\\Controll Chip
+\\Controll Chip 
+double-checked:
+
 https://www.encodeproject.org/files/ENCFF002AQJ/@@download/ENCFF002AQJ.fastq.gz 	Controll Chip 1 lunge e14,5d single ended big ren
 https://www.encodeproject.org/files/ENCFF002AQI/@@download/ENCFF002AQI.fastq.gz		Controll Chip 2 lunge e14,5d single ended big ren
 
