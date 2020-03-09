@@ -1,0 +1,5 @@
+limit-rate=20m
+http_proxy=beehive:3128
+https_proxy=beehive:3128
+ftp_proxy=beehive:3128
+check-certificate=quiet
