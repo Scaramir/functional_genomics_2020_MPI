@@ -84,15 +84,15 @@ https://www.encodeproject.org/files/ENCFF002AHZ/@@download/ENCFF002AHZ.fastq.gz 
 
 
 \\Controll Chip
-https://www.encodeproject.org/files/ENCFF002ARC/@@download/ENCFF002ARC.fastq.gz		Controll Chip 1 lunge p0  
-https://www.encodeproject.org/files/ENCFF002ARH/@@download/ENCFF002ARH.fastq.gz		Controll Chip 2 lunge p0
+https://www.encodeproject.org/files/ENCFF002AQJ/@@download/ENCFF002AQJ.fastq.gz 	Controll Chip 1 lunge e14,5d single ended big ren
+https://www.encodeproject.org/files/ENCFF002AQI/@@download/ENCFF002AQI.fastq.gz		Controll Chip 2 lunge e14,5d single ended big ren
 
-https://www.encodeproject.org/files/ENCFF002AQJ/@@download/ENCFF002AQJ.fastq.gz		Controll Chip 1 lunge e14 Big ren
-https://www.encodeproject.org/files/ENCFF002AQI/@@download/ENCFF002AQI.fastq.gz		Controll Chip 2 lunge e14 big ren
+https://www.encodeproject.org/files/ENCFF002ARC/@@download/ENCFF002ARC.fastq.gz  	Controll Chip 1 lunge p0 Big ren single ended
+https://www.encodeproject.org/files/ENCFF002ARH/@@download/ENCFF002ARH.fastq.gz 	Controll Chip 2 lunge p0 big ren single ended
 
-https://www.encodeproject.org/files/ENCFF002AQG/@@download/ENCFF002AQG.fastq.gz		Controll Chip 1 limb e14 Big ren
+https://www.encodeproject.org/files/ENCFF002AQG/@@download/ENCFF002AQG.fastq.gz		Controll Chip 1 limb e14 Big ren single ended
 https://www.encodeproject.org/files/ENCFF002AQF/@@download/ENCFF002AQF.fastq.gz		Controll Chip 2 limb e14 Big ren
-                                                                                        --> zu p0 existieren keine weiteren Daten fuer Limb
+     --> zu p0 existieren keine weiteren Daten fuer Limb von control-chip-seq
 
 
 
