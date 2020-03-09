@@ -120,3 +120,55 @@ Histon chipseq:
 					
 				https://www.encodeproject.org/files/ENCFF002AGJ/@@download/ENCFF002AGJ.fastq.gz
 					-2 aeltere groessere
+					
+	H3K9me3
+	    Limb:
+	        14.5:
+                https://www.encodeproject.org/files/ENCFF002DRL/@@download/ENCFF002DRL.fastq.gz  --1
+                https://www.encodeproject.org/files/ENCFF002DRO/@@download/ENCFF002DRO.fastq.gz  --2
+
+
+    H3K9me3:
+        Lung:
+            e14,5d:
+                https://www.encodeproject.org/files/ENCFF002DQV/@@download/ENCFF002DQV.fastq.gz  --1
+                https://www.encodeproject.org/files/ENCFF002DRB/@@download/ENCFF002DRB.fastq.gz  --2
+
+    H3K9me3:
+        Lung:    
+            p0:
+                https://www.encodeproject.org/files/ENCFF002DTK/@@download/ENCFF002DTK.fastq.gz  --1
+                https://www.encodeproject.org/files/ENCFF002DTL/@@download/ENCFF002DTL.fastq.gz  --2
+
+    H3K4me1:
+        Lung:
+            p0:
+                https://www.encodeproject.org/files/ENCFF002AKJ/@@download/ENCFF002AKJ.fastq.gz		Histon chip1 lung p0 H3K4me1
+                https://www.encodeproject.org/files/ENCFF002AKG/@@download/ENCFF002AKG.fastq.gz		Histon chip2 lung p0 H3K4me1
+            
+            e14,5d:
+                https://www.encodeproject.org/files/ENCFF002AJT/@@download/ENCFF002AJT.fastq.gz 	Histon chip1 lung e14 H3K4me1
+                https://www.encodeproject.org/files/ENCFF002AJS/@@download/ENCFF002AJS.fastq.gz		Histon chip2 lung e14 H3K4me1
+        Limb:
+            e14,5d:
+                https://www.encodeproject.org/files/ENCFF002AJR/@@download/ENCFF002AJR.fastq.gz 	Histon chip1 limb e14 H3K4me1
+                https://www.encodeproject.org/files/ENCFF897XJF/@@download/ENCFF897XJF.fastq.gz		Histon chip2 limb e14 H3K4me1
+
+					
+					
+					
+
+
+Controll Chip:
+
+https://www.encodeproject.org/files/ENCFF002AQJ/@@download/ENCFF002AQJ.fastq.gz 	Controll Chip 1 lunge e14,5d single ended big ren
+https://www.encodeproject.org/files/ENCFF002AQI/@@download/ENCFF002AQI.fastq.gz		Controll Chip 2 lunge e14,5d single ended big ren
+
+https://www.encodeproject.org/files/ENCFF002ARC/@@download/ENCFF002ARC.fastq.gz  	Controll Chip 1 lunge p0 Big ren single ended
+https://www.encodeproject.org/files/ENCFF002ARH/@@download/ENCFF002ARH.fastq.gz 	Controll Chip 2 lunge p0 big ren single ended
+
+https://www.encodeproject.org/files/ENCFF002AQG/@@download/ENCFF002AQG.fastq.gz		Controll Chip 1 limb e14 Big ren single ended
+https://www.encodeproject.org/files/ENCFF002AQF/@@download/ENCFF002AQF.fastq.gz		Controll Chip 2 limb e14 Big ren
+     --> zu p0 existieren keine weiteren Daten fuer Limb von control-chip-seq
+
+
