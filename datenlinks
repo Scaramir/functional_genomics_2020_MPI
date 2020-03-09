@@ -1,0 +1,122 @@
+Atac-Seq:(paired)
+	Lunge: 
+		p0: 
+			https://www.encodeproject.org/files/ENCFF269YOD/@@download/ENCFF269YOD.fastq.gz
+				-1gr
+				
+			https://www.encodeproject.org/files/ENCFF150BVC/@@download/ENCFF150BVC.fastq.gz
+				- 2 groessere
+				
+		14.5: 
+			https://www.encodeproject.org/files/ENCFF244BWB/@@download/ENCFF244BWB.fastq.gz
+				-1 groessere
+			
+			https://www.encodeproject.org/files/ENCFF437GNH/@@download/ENCFF437GNH.fastq.gz
+				-2 groessere
+			
+	Limb:
+		14.5:	
+			https://www.encodeproject.org/files/ENCFF981BBK/@@download/ENCFF981BBK.fastq.gz
+				-1 gr
+				
+			https://www.encodeproject.org/files/ENCFF634JLT/@@download/ENCFF634JLT.fastq.gz
+				-2 gr
+				
+Histon chipseq:
+
+	H3K4me3:(single)
+		Limb:
+			14.5
+				https://www.encodeproject.org/files/ENCFF002AMM/@@download/ENCFF002AMM.fastq.gz
+					-1
+					
+				https://www.encodeproject.org/files/ENCFF002AMN/@@download/ENCFF002AMN.fastq.gz
+					-2
+					
+		Lung:
+			p0:
+				https://www.encodeproject.org/files/ENCFF002ANG/@@download/ENCFF002ANG.fastq.gz
+					-1
+					
+				
+				https://www.encodeproject.org/files/ENCFF002ANM/@@download/ENCFF002ANM.fastq.gz
+				-2
+				
+			14.5:
+				https://www.encodeproject.org/files/ENCFF002AMX/@@download/ENCFF002AMX.fastq.gz
+					-1
+				
+				https://www.encodeproject.org/files/ENCFF002AMW/@@download/ENCFF002AMW.fastq.gz
+				-2
+				
+	H3k27ac:
+		Lung:
+			p0:
+				https://www.encodeproject.org/files/ENCFF002AFN/@@download/ENCFF002AFN.fastq.gz
+					-1
+					
+				https://www.encodeproject.org/files/ENCFF002AFT/@@download/ENCFF002AFT.fastq.gz
+					-2
+					
+			14.5:
+				https://www.encodeproject.org/files/ENCFF002AFI/@@download/ENCFF002AFI.fastq.gz
+					-1
+					
+				https://www.encodeproject.org/files/ENCFF002AFF/@@download/ENCFF002AFF.fastq.gz
+					-2
+		Limb:
+			14.5:
+				https://www.encodeproject.org/files/ENCFF002AEY/@@download/ENCFF002AEY.fastq.gz
+					-1
+				
+				https://www.encodeproject.org/files/ENCFF002AEX/@@download/ENCFF002AEX.fastq.gz
+					-2
+					
+	H3k36me3:
+		Limb:
+			14.5:
+				https://www.encodeproject.org/files/ENCFF002AIA/@@download/ENCFF002AIA.fastq.gz
+					-1 Aeltere Groessere
+					
+				https://www.encodeproject.org/files/ENCFF002AHZ/@@download/ENCFF002AHZ.fastq.gz
+					-2 einzige
+					
+		Lunge:
+			p0:
+				https://www.encodeproject.org/files/ENCFF002BGQ/@@download/ENCFF002BGQ.fastq.gz
+					-1 groessere
+				
+				https://www.encodeproject.org/files/ENCFF277WTS/@@download/ENCFF277WTS.fastq.gz
+					-2 einzige
+					
+			e14:
+				https://www.encodeproject.org/files/ENCFF002AHY/@@download/ENCFF002AHY.fastq.gz
+					-1
+					
+				https://www.encodeproject.org/files/ENCFF002AIE/@@download/ENCFF002AIE.fastq.gz
+					-2
+					
+	H3K27me3:
+		Lunge:
+			p0:
+				https://www.encodeproject.org/files/ENCFF002AHD/@@download/ENCFF002AHD.fastq.gz
+					-1 aeltere groessere
+					
+				https://www.encodeproject.org/files/ENCFF002AHH/@@download/ENCFF002AHH.fastq.gz
+					-2 
+					
+					
+			14.5
+				https://www.encodeproject.org/files/ENCFF002AGQ/@@download/ENCFF002AGQ.fastq.gz
+					-1
+					
+				https://www.encodeproject.org/files/ENCFF002AGO/@@download/ENCFF002AGO.fastq.gz
+					-2
+					
+		Limb: 
+			14.5:
+				https://www.encodeproject.org/files/ENCFF002AGK/@@download/ENCFF002AGK.fastq.gz
+					-1
+					
+				https://www.encodeproject.org/files/ENCFF002AGJ/@@download/ENCFF002AGJ.fastq.gz
+					-2 aeltere groessere
