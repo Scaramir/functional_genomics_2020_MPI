@@ -20,7 +20,7 @@ https://www.encodeproject.org/files/ENCFF780HRS/@@download/ENCFF780HRS.fastq.gz 
 https://www.encodeproject.org/files/ENCFF184ELK/@@download/ENCFF184ELK.fastq.gz          rna-seq2 limb e14
 
 
-\\Histon Chip
+\\Histon Chip   (single ended)
 https://www.encodeproject.org/files/ENCFF002AMM/@@download/ENCFF002AMM.fastq.gz      Histon chip1 limp e14 H3K4me3
 https://www.encodeproject.org/files/ENCFF002AMN/@@download/ENCFF002AMN.fastq.gz       Histon chip2 limp e14 H3K4me3
 \
@@ -35,11 +35,11 @@ https://www.encodeproject.org/files/ENCFF002ANM/@@download/ENCFF002ANM.fastq.gz	
 https://www.encodeproject.org/files/ENCFF002AKJ/@@download/ENCFF002AKJ.fastq.gz		Histon chip1 lung p0 H3K4me1
 https://www.encodeproject.org/files/ENCFF002AKG/@@download/ENCFF002AKG.fastq.gz		Histon chip2 lung p0 H3K4me1
 
-https://www.encodeproject.org/files/ENCFF002AJT/@@download/ENCFF002AJT.fastq.gz		Histon chip1 lung e14 H3K4me1
+https://www.encodeproject.org/files/ENCFF002AJT/@@download/ENCFF002AJT.fastq.gz 	Histon chip1 lung e14 H3K4me1
 https://www.encodeproject.org/files/ENCFF002AJS/@@download/ENCFF002AJS.fastq.gz		Histon chip2 lung e14 H3K4me1
 
-https://www.encodeproject.org/files/ENCFF002AJR/@@download/ENCFF002AJR.fastq.gz 		Histon chip1 limp e14 H3K4me1
-https://www.encodeproject.org/files/ENCFF897XJF/@@download/ENCFF897XJF.fastq.gz		Histon chip2 limp e14 H3K4me1
+https://www.encodeproject.org/files/ENCFF002AJR/@@download/ENCFF002AJR.fastq.gz 	Histon chip1 limb e14 H3K4me1
+https://www.encodeproject.org/files/ENCFF897XJF/@@download/ENCFF897XJF.fastq.gz		Histon chip2 limb e14 H3K4me1
 
 
 
