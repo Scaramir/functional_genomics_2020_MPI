@@ -1,0 +1,121 @@
+//Histone Chip-Seq:
+H3K27me3{
+
+Lunge:{
+14.5d
+	https://www.encodeproject.org/files/ENCFF002AGQ/@@download/ENCFF002AGQ.fastq.gz
+	-1
+	https://www.encodeproject.org/files/ENCFF002AGO/@@download/ENCFF002AGO.fastq.gz
+	-2
+p0
+    https://www.encodeproject.org/files/ENCFF002AHD/@@download/ENCFF002AHD.fastq.gz
+    -1 aeltere groessere
+    https://www.encodeproject.org/files/ENCFF003AGA/@@download/ENCFF003AGA.fastq.gz
+    -1.2 juengeres, kleineres technisches replikat		
+
+	https://www.encodeproject.org/files/ENCFF002AHH/@@download/ENCFF002AHH.fastq.gz
+	-2 
+}
+
+Limb:{
+14,5d
+    https://www.encodeproject.org/files/ENCFF466WCX/@@download/ENCFF466WCX.fastq.gz
+    -2.2 juengere, kleineres
+
+    https://www.encodeproject.org/files/ENCFF002AGK/@@download/ENCFF002AGK.fastq.gz
+    -1
+					
+    https://www.encodeproject.org/files/ENCFF002AGJ/@@download/ENCFF002AGJ.fastq.gz
+    -2 aeltere groessere
+
+p0: keine Daten!
+}
+}
+
+
+H3K9me3{
+Lunge:{
+14,5d 
+    https://www.encodeproject.org/files/ENCFF002DQV/@@download/ENCFF002DQV.fastq.gz
+    -1.1
+
+    https://www.encodeproject.org/files/ENCFF002DQX/@@download/ENCFF002DQX.fastq.gz
+    -1.2
+
+    https://www.encodeproject.org/files/ENCFF002DRB/@@download/ENCFF002DRB.fastq.gz
+    -2.1
+
+    https://www.encodeproject.org/files/ENCFF002DQW/@@download/ENCFF002DQW.fastq.gz
+    -2.2
+
+    https://www.encodeproject.org/files/ENCFF002DQZ/@@download/ENCFF002DQZ.fastq.gz
+    -2.3
+
+p0  
+    https://www.encodeproject.org/files/ENCFF002DTK/@@download/ENCFF002DTK.fastq.gz
+    -1.1
+
+    https://www.encodeproject.org/files/ENCFF002DSY/@@download/ENCFF002DSY.fastq.gz
+    -1.2
+
+    https://www.encodeproject.org/files/ENCFF002DTL/@@download/ENCFF002DTL.fastq.gz
+    -2.1
+}
+Limb:{
+14,5d 
+    https://www.encodeproject.org/files/ENCFF002DRJ/@@download/ENCFF002DRJ.fastq.gz
+    -1.1
+
+    https://www.encodeproject.org/files/ENCFF002DRI/@@download/ENCFF002DRI.fastq.gz
+    -1.2
+
+    https://www.encodeproject.org/files/ENCFF002DRL/@@download/ENCFF002DRL.fastq.gz
+    -1.3
+
+    https://www.encodeproject.org/files/ENCFF002DRS/@@download/ENCFF002DRS.fastq.gz
+    -2.1
+
+    https://www.encodeproject.org/files/ENCFF002DRO/@@download/ENCFF002DRO.fastq.gz
+    -2.2
+
+    https://www.encodeproject.org/files/ENCFF002DRP/@@download/ENCFF002DRP.fastq.gz
+    -2.3
+
+p0: keine Daten
+
+}
+}
+H3K36me3{
+Lung:{
+14,5d
+    https://www.encodeproject.org/files/ENCFF002AHY/@@download/ENCFF002AHY.fastq.gz
+    -1
+
+    https://www.encodeproject.org/files/ENCFF002AIE/@@download/ENCFF002AIE.fastq.gz
+    -2
+p0:
+    https://www.encodeproject.org/files/ENCFF002BGQ/@@download/ENCFF002BGQ.fastq.gz
+    -1.1
+
+    https://www.encodeproject.org/files/ENCFF277WTS/@@download/ENCFF277WTS.fastq.gz
+    -2.1
+
+    https://www.encodeproject.org/files/ENCFF002BGS/@@download/ENCFF002BGS.fastq.gz
+    -2.2    
+}
+Limb:{
+14,d
+    https://www.encodeproject.org/files/ENCFF002AIA/@@download/ENCFF002AIA.fastq.gz
+    -1.1
+
+    https://www.encodeproject.org/files/ENCFF403RZA/@@download/ENCFF403RZA.fastq.gz
+    -1.2
+
+    https://www.encodeproject.org/files/ENCFF002AHZ/@@download/ENCFF002AHZ.fastq.gz
+    -2
+
+p0: keine Daten    
+}
+
+
+}
